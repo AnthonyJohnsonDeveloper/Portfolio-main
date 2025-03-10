@@ -242,7 +242,7 @@ nav {
 }
 .language__list {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* 4 columns */
   gap: 2rem;
   justify-items: center;
   width: 100%;
